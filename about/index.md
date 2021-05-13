@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Semih GÜLÜM</b></a> Mekatronik Mühendisi </center>
+<center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
 ## Features
 * Minimal, you can focus on your content
