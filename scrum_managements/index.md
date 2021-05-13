@@ -17,15 +17,14 @@ comments: false
 ## Sample images from managed scrum project
 
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118133115-1d0c9000-b409-11eb-9805-510eacc6a19c.png
-	https://user-images.githubusercontent.com/56072259/118133180-2eee3300-b409-11eb-8a2b-867a3fc476a0.png
-	https://user-images.githubusercontent.com/56072259/118133238-44fbf380-b409-11eb-9384-183eaf8b4be4.png
+	https://user-images.githubusercontent.com/56072259/118136623-fc463980-b40c-11eb-8a44-01abe7f06c02.png
+	https://user-images.githubusercontent.com/56072259/118136624-fcded000-b40c-11eb-92ef-4594d09a0e1b.png
 {% endcapture %}
-{% include gallery images=images cols=2 rows=2 %}
+{% include gallery images=images cols=2 %}
 
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118133207-37df0480-b409-11eb-87bd-9c2a10435b47.png
-	https://user-images.githubusercontent.com/56072259/118133238-44fbf380-b409-11eb-9384-183eaf8b4be4.png
+	https://user-images.githubusercontent.com/56072259/118136629-fd776680-b40c-11eb-9c5f-af8fae7e20f4.png
+	https://user-images.githubusercontent.com/56072259/118136620-fb150c80-b40c-11eb-969e-7b9483857fab.png
 {% endcapture %}
 {% include gallery images=images caption="Sample Screen Shots" cols=2 %}
 
