@@ -9,7 +9,7 @@ comments: false
 <center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
 ## Certifications
-* <p><a>https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf)Introduction.to.Natural.Language.Processing.in.Python (From Datacamp)</a><>/b
+* <p><ahttps://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf>Introduction.to.Natural.Language.Processing.in.Python (From Datacamp)</a><>/
 
 * Responsive
 * Disqus integration
