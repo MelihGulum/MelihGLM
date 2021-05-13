@@ -32,6 +32,6 @@ We were using scrum methodology when I was doing my internship at [AdresGezgini]
 
 ## Want help for scrum?
 
-If you have any questions about scrum you can contact me
+If you have any questions about scrum you can contact me.
       
 [Contact With Me](https://semihstp.github.io/about/){: .btn}
