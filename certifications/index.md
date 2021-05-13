@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Theme
+title: My Certificaties
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
@@ -28,7 +28,7 @@ comments: false
 * <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475201/KUISYOKO21_Semih_Gulum_sertifika.pdf">Koç Üniversitesi ve Türkiye İş Bankası Yapay Öğrenme Kış Okulu (Koc University and Turkiye Is Bankasi )</a></p>
 
 
-** <p> Also if you wanna see my other certifications <a href="https://drive.google.com/drive/folders/1V2B3-Go6OB6kiNUDAfZjmy7AuRZG1r8p?usp=sharing">you can click here!</a>.</p>
+* <p> <b>Also</b> if you wanna see my other certifications <a href="https://drive.google.com/drive/folders/1V2B3-Go6OB6kiNUDAfZjmy7AuRZG1r8p?usp=sharing">you can click here!</a>.</p>
 
 
 ## Preview
