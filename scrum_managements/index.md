@@ -17,14 +17,14 @@ comments: false
 ## Sample images from managed scrum project
 
 {% capture images %}
-    https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/a.png
-    https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/b.png
+    https://github.com/semihstp/semihstp.github.io/.github/images/scrum_a.png
+    https://github.com/semihstp/semihstp.github.io/.github/images/scrum_b.png
 {% endcapture %}
 {% include gallery images=images caption="Sample Screen Shots" cols=2 %}
 
 {% capture images %}
-    https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/c.png
-    https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/d.png
+    https://github.com/semihstp/semihstp.github.io/.github/images/scrum_c.png
+    https://github.com/semihstp/semihstp.github.io/.github/images/scrum_d.png
 {% endcapture %}
 {% include gallery images=images caption="Sample Screen Shots" cols=2 %}
 
