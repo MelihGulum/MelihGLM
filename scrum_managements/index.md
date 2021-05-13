@@ -20,6 +20,7 @@ comments: false
     https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/a.png
     https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/b.png
 {% endcapture %}
+{% include gallery images=images caption="Sample Screen Shots" cols=2 %}
 
 {% capture images %}
     https://github.com/semihstp/semihstp.github.io/tree/main/scrum_managements/c.png
