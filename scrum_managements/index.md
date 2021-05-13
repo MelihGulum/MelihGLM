@@ -28,11 +28,14 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="Sample Screen Shots" cols=2 %}
 
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+We were using scrum methodology when I was doing my internship at [AdresGezgini](https://adresgezgini.com/). I also use scrum, which I find very effective in terms of time management and work efficiency, in my daily life.
 
 ## Getting Started
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+
+{% capture videos %}
+	https://user-images.githubusercontent.com/56072259/118139461-09b0f300-b410-11eb-87fe-1fb3c6415d95.mp4
+{% endcapture %}
