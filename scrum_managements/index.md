@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><b>Semih GULUM</b></a> //  Mechatronic Engineer </center>
+<center><b>Semih GULUM</b>//  Mechatronic Engineer </center>
 
 ## Tasks Taken
 * Developer Team Member
