@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
+<center><b>Semih GULUM</b></a> //  Mechatronic Engineer </center>
 
 ## Tasks Taken
 * Developer Team Member
@@ -30,13 +30,8 @@ comments: false
 
 We were using scrum methodology when I was doing my internship at [AdresGezgini](https://adresgezgini.com/). I also use scrum, which i find very effective in terms of time management and work efficiency, in my daily life.
 
-## Getting Started
+## Want help for scrum?
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+If you have any questions about scrum you can contact me
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
-
-{% capture images %}
-	https://user-images.githubusercontent.com/56072259/118139461-09b0f300-b410-11eb-87fe-1fb3c6415d95.mp4
-{% endcapture %}
-{% include gallery images=images caption="Sample Screen Shots" cols=1 %}
+[Contact With Me](https://semihstp.github.io/about/){: .btn}
