@@ -6,26 +6,30 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
+<center><a href="http://semihstp.github.io/About"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
 ## Certifications
 * <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
 
-<object data="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="http://yoursite.com/the.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475160/Supervised_Learning_with_Scikit-learn.pdf">Supervised Learning with Scikit-learn (From Datacamp)</a></p>
 
-* <p>If you've followed a link expecting something to be here, you can <a href="mailto:sgulum98@gmail.com?subject=Page%20not%20found">contact me</a>.</p>
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475165/Bogazici_Datacamp.pdf">Boğaziçi Datacamp (From Bogazici University)</a></p>
+
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475171/Coursera_Detecting_COVID-19_with_Chest_X-Ray_usinf_Pytorch.pdf">Detecting COVID-19 with Chest X-Ray with Pytorch (From Coursea)</a></p>
+
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475178/Coursera_Programming_Foundations_with_JavaScript.HTML_and_CSS.pdf">Coursera Programming Foundations with JavaScript, HTML and CSS.pdf (From Coursea)</a></p>
+
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475186/GlobalAI_Introduction_to_AI_and_Deep_Learning.pdf">Introduction to AI and Deep Learning (From GlobalAI)</a></p>
+
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475191/GlobalAI_Introduction_to_machine_Learning.pdf">Introduction to AI and Machine Learning (From GlobalAI)</a></p>
+
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
+
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475201/KUISYOKO21_Semih_Gulum_sertifika.pdf">Koç Üniversitesi ve Türkiye İş Bankası Yapay Öğrenme Kış Okulu (Koc University and Turkiye Is Bankasi )</a></p>
+
+
+** <p> Also if you wanna see my other certifications <a href="https://drive.google.com/drive/folders/1V2B3-Go6OB6kiNUDAfZjmy7AuRZG1r8p?usp=sharing">you can click here!</a>.</p>
+
 
 ## Preview
 
@@ -35,10 +39,3 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-<p>If you've followed a link expecting something to be here, you can <a href="mailto:sgulum98@gmail.com?subject=Page%20not%20found">contact me</a>.</p>
