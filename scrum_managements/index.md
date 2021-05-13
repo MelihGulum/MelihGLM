@@ -19,8 +19,9 @@ comments: false
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118133115-1d0c9000-b409-11eb-9805-510eacc6a19c.png
 	https://user-images.githubusercontent.com/56072259/118133180-2eee3300-b409-11eb-8a2b-867a3fc476a0.png
+	https://user-images.githubusercontent.com/56072259/118133238-44fbf380-b409-11eb-9384-183eaf8b4be4.png
 {% endcapture %}
-{% include gallery images=images caption="Sample Screen Shots" cols=2 %}
+{% include gallery images=images cols=2 rows=2 %}
 
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118133207-37df0480-b409-11eb-87bd-9c2a10435b47.png
