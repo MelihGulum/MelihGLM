@@ -9,7 +9,13 @@ comments: false
 <center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
 ## Certifications
-* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf">Introduction.to.Natural.Language.Processing.in.Python (From Datacamp)</a></p>
+* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
+
+<object data="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://yoursite.com/the.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 * <p>If you've followed a link expecting something to be here, you can <a href="mailto:sgulum98@gmail.com?subject=Page%20not%20found">contact me</a>.</p>
 * Disqus integration
