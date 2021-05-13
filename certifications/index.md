@@ -8,8 +8,9 @@ comments: false
     
 <center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
-## Features
-* Minimal, you can focus on your content
+## Certifications
+* <p><a>https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf)Introduction.to.Natural.Language.Processing.in.Python (From Datacamp)</a><>/b
+
 * Responsive
 * Disqus integration
 * Syntax highlighting
@@ -34,4 +35,4 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+<p>If you've followed a link expecting something to be here, you can <a href="mailto:sgulum98@gmail.com?subject=Page%20not%20found">contact me</a>.</p>
