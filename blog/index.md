@@ -36,7 +36,7 @@ I talked about linear regression in this article.
 
 
 <i class="icon ion-ios-list-box-outline"></i> 
-## {: .&#8594;} Sofrmaax 
+## &#8594; Sofrmaax 
 
 I talked about linear regression in this article.
 
