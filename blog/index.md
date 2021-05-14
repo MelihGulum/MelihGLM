@@ -11,8 +11,7 @@ comments: false
 <hr>
 <br>
 
-<i class="icon ion-ios-list-box-outline"></i>
-## --> Lineer Regresyon
+## &#8594; Lineer Regresyon
 
 I talked about linear regression in this article.
 
@@ -28,7 +27,7 @@ I talked about linear regression in this article.
 <br>
 
 <i class="icon ion-ios-list-box-outline"></i>
-## --> Forward and Back Propagation
+## &#8594; Forward and Back Propagation
 
 I talked about linear regression in this article.
 
@@ -60,7 +59,7 @@ I talked about linear regression in this article.
 <br>
 
 <i class="icon ion-ios-list-box-outline"></i>
-## --> Bias-Variance Trade off
+## &#8594; Bias-Variance Trade off
 
 I talked about linear regression in this article.
 
