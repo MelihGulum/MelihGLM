@@ -21,7 +21,7 @@ I talked about linear regression in this article.
 
 {% include gallery images=images caption="Linear Regression Article" %}
 
-[Read More](https://medium.com/deeper-deep-learning-tr/matematiksel-temelleri-ile-lineer-regresyon-d034b5d9df6c){: .btn btn-danger}
+[Read More](https://medium.com/deeper-deep-learning-tr/matematiksel-temelleri-ile-lineer-regresyon-d034b5d9df6c){: class="btn btn-danger"}
 
 <hr>
 <br>
@@ -51,7 +51,7 @@ I talked about linear regression in this article.
 
 {% include gallery images=images caption="Softmax Activation Function" %}
 
-[Read More](https://medium.com/deeper-deep-learning-tr/softmax-bir-aktivasyon-fonksiyonu-da8382d8a281){: .btn btn-danger"}
+[Read More](https://medium.com/deeper-deep-learning-tr/softmax-bir-aktivasyon-fonksiyonu-da8382d8a281){: class="btn btn-danger"}
 
 <hr>
 <br>
