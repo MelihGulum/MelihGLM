@@ -8,7 +8,9 @@ comments: false
     
 <center><a href="http://semihstp.github.io/"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
-<hr style=dashed>
+<hr>
+<br>
+
 ## --> Lineer Regresyon
 
 I talked about linear regression in this article.
@@ -21,7 +23,7 @@ I talked about linear regression in this article.
 
 [Read More](https://medium.com/deeper-deep-learning-tr/matematiksel-temelleri-ile-lineer-regresyon-d034b5d9df6c){: .btn}
 
-<hr style="dashed">
+<hr>
 <br>
 
 ## --> Forward and Back Propagation
@@ -36,7 +38,7 @@ I talked about linear regression in this article.
 
 [Read More](https://medium.com/deeper-deep-learning-tr/adım-adım-forward-and-back-propagation-cf4cd18276ee){: .btn}
 
-<hr style=dashed;>
+<hr>
 <br>
 <i class="icon ion-ios-list-box-outline"></i> 
 ## &#8594; Softmax 
@@ -49,9 +51,9 @@ I talked about linear regression in this article.
 
 {% include gallery images=images caption="Softmax Activation Function" %}
 
-[Read More](https://medium.com/deeper-deep-learning-tr/softmax-bir-aktivasyon-fonksiyonu-da8382d8a281){: .btn}
+[Read More](https://medium.com/deeper-deep-learning-tr/softmax-bir-aktivasyon-fonksiyonu-da8382d8a281){: .btn btn-danger"}
 
-<hr style="dashed";>
+<hr>
 <br>
 
 ## --> Bias-Variance Trade off
