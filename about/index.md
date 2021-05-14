@@ -10,7 +10,7 @@ comments: false
 <i class="far fa-address-card"></i>
 ## Who am i?
 
-Hello, I'm Semih GULUM. I am a senior student at Marmara University mechatronics engineering department. I work in the fields of machine learning and deep learning. In addition, I try to discover the secrets of deep learning by studying statistics. I love to play football and basketball. I enjoy working on foreign languages whenever I find the opportunity.
+Hello, I'm Semih GULUM. I am a senior student at Marmara University mechatronics engineering department. I work in the fields of machine learning and deep learning. In addition, I try to discover the secrets of deep learning by studying statistics. I love to play football and basketball. I enjoy working on foreign languages whenever I find the opportunity.s
 
 <i class="bi bi-alarm"></i>
 
