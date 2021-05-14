@@ -66,5 +66,5 @@ I talked about linear regression in this article.
 
 {% include gallery images=images caption="Softmax Activation Function" %}
 
-[Read More](https://medium.com/deeper-deep-learning-tr/bias-ve-varyansa-derinlemesine-bakış-5b87312c8d68){: .btn}
+[Read More](https://medium.com/deeper-deep-learning-tr/bias-ve-varyansa-derinlemesine-bakış-5b87312c8d68){: class="btn btn-danger"}
 
