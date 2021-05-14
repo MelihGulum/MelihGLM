@@ -1,12 +1,12 @@
 ---
 layout: page
-title: My Certificaties
+title: My Certificatiess
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://semihstp.github.io/About"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
+<center><a href="http://semihstp.github.io/About" target="_blank"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
 ## Certifications
 * <p><a href="https://drive.google.com/file/d/1lCo7B9WrfNgFN5CEKLXLU64cArpouNNt/view?usp=sharing">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
