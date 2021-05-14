@@ -21,7 +21,7 @@ I talked about linear regression in this article.
 
 {% include gallery images=images caption="Linear Regression Article" %}
 
-[Read More](https://medium.com/deeper-deep-learning-tr/matematiksel-temelleri-ile-lineer-regresyon-d034b5d9df6c){: .btn}
+[Read More](https://medium.com/deeper-deep-learning-tr/matematiksel-temelleri-ile-lineer-regresyon-d034b5d9df6c){: .btn btn-danger}
 
 <hr>
 <br>
@@ -36,7 +36,7 @@ I talked about linear regression in this article.
 
 {% include gallery images=images caption="Step by Step Forward and Back Propagation Article" %}
 
-[Read More](https://medium.com/deeper-deep-learning-tr/adım-adım-forward-and-back-propagation-cf4cd18276ee){: .btn}
+[Read More](https://medium.com/deeper-deep-learning-tr/adım-adım-forward-and-back-propagation-cf4cd18276ee){: class="btn btn-danger"}
 
 <hr>
 <br>
