@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<i class="material-icons">assignment_ind</i>
 ---
 layout: page
 title: About Me
@@ -5,8 +8,10 @@ tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
-    
-<center><b>Semih GULUM</b> Mechatronic Engineer </center>
+
+
+
+<center><i class="material-icons">assignment_ind</i><b> Semih GULUM</b> Mechatronic Engineer </center>
 
 ## Who am i?
 
