@@ -9,7 +9,7 @@ comments: false
 <center><a href="http://semihstp.github.io/About"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
 ## Certifications
-* <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475030/Introduction.to.Natural.Language.Processing.in.Python.pdf">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
+* <p><a href="https://drive.google.com/file/d/1lCo7B9WrfNgFN5CEKLXLU64cArpouNNt/view?usp=sharing">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
 
 * <p><a href="https://github.com/semihstp/semihstp.github.io/files/6475160/Supervised_Learning_with_Scikit-learn.pdf">Supervised Learning with Scikit-learn (From Datacamp)</a></p>
 
