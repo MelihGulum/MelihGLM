@@ -35,7 +35,7 @@ I talked about linear regression in this article.
 
 
 
-## <span class="iconify" data-icon="ion-md-arrow-dropright" data-inline="false"></span> Softmax 
+<i class="icon ion-ios-list-box-outline"></i> ## Sofrmax 
 
 I talked about linear regression in this article.
 
