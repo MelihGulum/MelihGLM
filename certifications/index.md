@@ -17,7 +17,7 @@ comments: false
 
 * <p><a href="https://drive.google.com/file/d/1mRL-nJguMdViaAZrLXrvySZ0Q2G4DN97/view?usp=sharing" target="_blank">Detecting COVID-19 with Chest X-Ray with Pytorch (From Coursea)</a></p>
 
-* <p><a href="https://drive.google.com/file/d/1-KCjiSCGFkPNz7sVdTqZtJOZGl2C0L0P/view?usp=sharing target="_blank"">Coursera Programming Foundations with JavaScript, HTML and CSS.pdf (From Coursea)</a></p>
+* <p><a href="https://drive.google.com/file/d/1-KCjiSCGFkPNz7sVdTqZtJOZGl2C0L0P/view?usp=sharing target="_blank">Coursera Programming Foundations with JavaScript, HTML and CSS.pdf (From Coursea)</a></p>
 
 * <p><a href="https://drive.google.com/file/d/15YpBM02M6kme4ph5H_pgXTPsjS9NU2WC/view?usp=sharing" target="_blank">Introduction to AI and Deep Learning (From GlobalAI)</a></p>
 
