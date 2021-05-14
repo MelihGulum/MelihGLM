@@ -51,7 +51,7 @@ I talked about linear regression in this article.
 
 [Read More](https://medium.com/deeper-deep-learning-tr/softmax-bir-aktivasyon-fonksiyonu-da8382d8a281){: .btn}
 
-<br>
+<hr>
 <br>
 
 ## --> Bias-Variance Trade off
