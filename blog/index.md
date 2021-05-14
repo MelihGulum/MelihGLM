@@ -35,7 +35,8 @@ I talked about linear regression in this article.
 
 
 
-<i class="icon ion-ios-list-box-outline"></i> ## Sofrmax 
+<i class="icon ion-ios-list-box-outline"></i> 
+## Sofrmax 
 
 I talked about linear regression in this article.
 
