@@ -93,7 +93,7 @@
 				</ul>
 			</li>
             <li>
-                <a href="scrum_management">Scrum Management</a>
+                <a href="https://semihstp.github.io/scrum_managements/">Scrum Management</a>
             </li>
             <li>
                 <a href="https://semihstp.github.io/certifications/">Certifications</a>
@@ -103,14 +103,5 @@
             </li>
             <li>
                 <a href="https://github.com/semihstp/semihstp.github.io/files/6477157/Semih.GULUM.CV.pdf">CV</a>
-            </li>
-			{% for link in site.data.navigation %}
-		    {% if link.url contains 'http' %}
-		        {% assign domain = '' %}
-		        {% else %}
-		        {% assign domain = site.url %}
-		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
-		  {% endfor %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
