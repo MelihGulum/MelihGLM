@@ -11,6 +11,7 @@ comments: false
 <hr>
 <br>
 
+<i class="icon ion-ios-list-box-outline"></i>
 ## --> Lineer Regresyon
 
 I talked about linear regression in this article.
@@ -26,6 +27,7 @@ I talked about linear regression in this article.
 <hr>
 <br>
 
+<i class="icon ion-ios-list-box-outline"></i>
 ## --> Forward and Back Propagation
 
 I talked about linear regression in this article.
@@ -40,6 +42,7 @@ I talked about linear regression in this article.
 
 <hr>
 <br>
+
 <i class="icon ion-ios-list-box-outline"></i> 
 ## &#8594; Softmax 
 
@@ -56,6 +59,7 @@ I talked about linear regression in this article.
 <hr>
 <br>
 
+<i class="icon ion-ios-list-box-outline"></i>
 ## --> Bias-Variance Trade off
 
 I talked about linear regression in this article.
