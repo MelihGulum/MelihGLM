@@ -1,37 +1,22 @@
 ---
 layout: page
-title: About the Theme
+title: Blog and Articles
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
+<center><a href="http://semihstp.github.io/"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
 
-## Preview
+## --> Lineer Regresyon
+
+I talked about linear regression in this article.
 
 {% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    https://user-images.githubusercontent.com/56072259/118263760-5dc6e080-b4bf-11eb-9b6a-585f453c8962.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+[Read More](https://medium.com/deeper-deep-learning-tr/matematiksel-temelleri-ile-lineer-regresyon-d034b5d9df6c){: .btn}
 
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+{% include gallery images=images caption="Linear Regression Article" cols=2 %}
