@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: <i class="material-icons">assignment_ind</i> About Me 
