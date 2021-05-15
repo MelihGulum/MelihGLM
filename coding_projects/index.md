@@ -1,6 +1,6 @@
 ---
-layout: post-list
-title: All Posts
+layout: coding-list
+title: My Coding Projects
 excerpt: "A List of Posts"
 comments: false
 ---
