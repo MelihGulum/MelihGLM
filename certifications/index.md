@@ -27,5 +27,4 @@ comments: false
 
 * <p><a href="https://drive.google.com/file/d/1yXV9U_wKNqQfhNos97W9t-zE8TZspn0A/view?usp=sharing" target="_blank">Koç Üniversitesi ve Türkiye İş Bankası Yapay Öğrenme Kış Okulu (Koc University and Turkiye Is Bankasi )</a></p>
 
-
 * <p> <b>Also</b> if you wanna see my other certifications <a href="https://drive.google.com/drive/folders/1V2B3-Go6OB6kiNUDAfZjmy7AuRZG1r8p?usp=sharing" target="_blank">you can click here!</a>.</p>
