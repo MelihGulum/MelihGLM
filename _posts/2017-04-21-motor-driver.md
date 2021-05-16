@@ -63,18 +63,18 @@ That's enough theoretical enough, now we can go into practice and set up our cir
 
 ## Parts of the Circuit Stated in the Simulation
 
-** &#8594; Zero Cross Control Circuit:** It is the circuit used to detect every decline of the signal coming from the AC signal source to zero. A bridge, 4 resistors of various values ​​and a transistor are used in the circuit. The circuit changes the output level (0-1) at each zero crossing. This output is connected to the microcontroller as an interrupt to detect zero crossings.
+**&#8594; Zero Cross Control Circuit:** It is the circuit used to detect every decline of the signal coming from the AC signal source to zero. A bridge, 4 resistors of various values ​​and a transistor are used in the circuit. The circuit changes the output level (0-1) at each zero crossing. This output is connected to the microcontroller as an interrupt to detect zero crossings.
 
-** &#8594; Motor Driver Circuit:** It is the circuit in which the motor (the lamp in the established circuit) is driven. An optocoupler, 3 resistors of various values ​​and a triac are used in the circuit. By using triac instead of thyristor, it is ensured that both alternans of the AC signal pass.
+**&#8594; Motor Driver Circuit:** It is the circuit in which the motor (the lamp in the established circuit) is driven. An optocoupler, 3 resistors of various values ​​and a triac are used in the circuit. By using triac instead of thyristor, it is ensured that both alternans of the AC signal pass.
 
-** &#8594; Microcontroller:** It is the element that provides control of the circuit. The stop button is taken as interrupt from the buttons and it has been detected on its rising edge. The zero-cross control circuit from the inputs is also taken as an interrupt.
+**&#8594; Microcontroller:** It is the element that provides control of the circuit. The stop button is taken as interrupt from the buttons and it has been detected on its rising edge. The zero-cross control circuit from the inputs is also taken as an interrupt.
 
-** &#8594; AC Signal and Transformer:** It is the part where the AC signal is taken from the source and drawn to usable levels in the circuit.
+**&#8594; AC Signal and Transformer:** It is the part where the AC signal is taken from the source and drawn to usable levels in the circuit.
 Oscilloscope: It is the element used to monitor the signals passing through various parts of the circuit.
 
 **&#8594; Buttons:** 4 pieces as start, stop, phase angle control and zero crossing control. While the start-stop circuit starts and stops, the other two buttons determine which control method the lamp will be driven by.
 
-**&#8594; Potentiometer: ** The potentiometer, which is the element in which the change time of the brightness levels of the lamp is adjusted, is connected to the analog input of the microcontroller.
+**&#8594; Potentiometer:** The potentiometer, which is the element in which the change time of the brightness levels of the lamp is adjusted, is connected to the analog input of the microcontroller.
 
 **&#8594; Mode LED:** It is the output element used to observe the modes in which the lamp is driven. It operates as 1 in phase angle control mode and 0 in zero crossing control mode.
 
