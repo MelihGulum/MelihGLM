@@ -136,7 +136,7 @@ plt.show()
 
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118407048-80a3f100-b687-11eb-9749-36c17f713348.png
+	https://user-images.githubusercontent.com/56072259/118407750-c2826680-b68a-11eb-939f-9fc433ae31fa.png
 {% endcapture %}
 {% include gallery images=images cols=2 caption="Figure 4 - The Sorting Hat"%}
 <b>
