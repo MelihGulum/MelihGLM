@@ -138,7 +138,7 @@ plt.show()
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118407750-c2826680-b68a-11eb-939f-9fc433ae31fa.png
 {% endcapture %}
-{% include gallery images=images cols=2 caption="Figure 4 - The Sorting Hat"%}
+{% include gallery images=images caption="Figure 4 - The Sorting Hat"%}
 <b>
 
 We can convert this images to black and white. But.. wait a minute. How do we choose the part we want? Of course with the threshold!
@@ -185,16 +185,6 @@ plt.show()
 <b>
 
 Also, if you want to draw boundaries the mask:
-```python
-wordcloud_example = wordcloud.WordCloud(stopwords=stopwords, mask=with_thresh, background_color="white").generate(long_string)
-
-figure(dpi=200)
-plt.imshow(wordcloud_example)
-plt.axis("off")
-plt.show()
-
-#For save the plot img 
-#wordcloud_example.to_file("wordcloud.png")
 ```python
 wordcloud_example = wordcloud.WordCloud(stopwords=stopwords, mask=with_thresh, contour_width=3, contour_color='firebrick', background_color="white").generate(long_string)
 figure(dpi=200)
