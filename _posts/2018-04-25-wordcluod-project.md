@@ -103,7 +103,7 @@ plt.show()
 ```
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118406706-a8925500-b685-11eb-94ac-dc603614f89f.png
+	https://user-images.githubusercontent.com/56072259/118406707-a8925500-b685-11eb-9367-1dec8e8a051f.png
 {% endcapture %}
 {% include gallery images=images caption="Figure 2 - With Remove the Stop Words"%}
 <b>
@@ -131,7 +131,7 @@ plt.show()
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118406705-a62ffb00-b685-11eb-86c3-6bd23664eea5.png
 {% endcapture %}
-{% include gallery images=images cols=2 caption="Figure 2 - With Remove the Stop Words"%}
+{% include gallery images=images cols=2 caption="Figure 3 - With a random black and white image"%}
 <b>
 
 Also, if you want to watch the video prepared by our project group, [you can click here](https://www.youtube.com/watch?v=0Dsjd2Zoi54). 
