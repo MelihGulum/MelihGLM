@@ -22,79 +22,117 @@ Threshold and Specisific Object Detection
 * OpenCV
 * google.colab.patches (If you use code in colab)
 
-{% capture images %}
-	https://user-images.githubusercontent.com/56072259/118397560-4291d780-b65d-11eb-8d26-c2b5c3d49ad3.gif
-{% endcapture %}
-{% include gallery images=images caption="Figure 1 - Mini gif about project "%}
 
 ## Explanation the Project
 
 In this project, i tried to track my water bottle. As you can see above i didn't use any deep learning library. It's easy and funny project. But if you don't find the right threshold value, it can turn into an annoying situation. I used trackbars to avoid this. So let's see the code!
 
-```colab
-import cv2
-import matplotlib.pyplot as plt
+```python
+import os
+import pandas as pd
+import re
+import wordcloud
+from matplotlib import pyplot as plt
+from PIL import Image
 import numpy as np
+from matplotlib.pyplot import figure
+import cv2
+from google.colab.patches import cv2_imshow
 
-cap = cv2.VideoCapture(0)
+books_path ="/content/drive/MyDrive/Colab Notebooks/dosyalar/harrypotter" 
+books_folder = os.listdir(books_path)
 
-def nothing(x):
-	pass
+#[f(x) for x in sequence if condition]
+books = [books for books in books_folder if books.endswith(".txt") ]
 
-cv2.namedWindow("resim")
+long_string = []
+for book in books:
+  path = books_path + "/" + str(book)
+  with open(path,'r') as f:
+    for line in f:
+       long_string.append("".join(line))
 
-cv2.createTrackbar("H1", "resim", 0, 359, nothing)
-cv2.createTrackbar("H2", "resim", 0, 359, nothing)
-cv2.createTrackbar("S1", "resim", 0, 255, nothing)
-cv2.createTrackbar("S2", "resim", 0, 255, nothing)
-cv2.createTrackbar("V1", "resim", 0, 255, nothing)
-cv2.createTrackbar("V2", "resim", 0, 255, nothing)
+#Clean the data
+def cleanText(input_sentence):
+  tmp= [word.replace('A','a') for word in input_sentence.split(' ')]
+  tmp= [word.lower() for word in tmp]
+  tmp= [word.replace('i̇','i') for word in tmp]
+  tmp = [re.sub('[^A-Za-z0-9ğüşıçöiâî]+', ' ', word) for word in tmp]
+  tmp = [word.strip(' ') for word in tmp]
+  tmp1 =' '.join(tmp)
 
-while cap.isOpened() :
-	_,frame = cap.read()
-	rectangled_frame = frame.copy()
+  return tmp1
 
-	#changing bgr to rgb
-	frame = frame[:, :, ::-1]
+def listToString(s): 
+    # initialize an empty string
+    str1 = " " 
+    
+    # return string  
+    return (str1.join(s))
 
-	pt1x = frame.shape[0]-400
-	pt1y = frame.shape[1]-400
-	pt2x = frame.shape[0]-200
-	pt2y = frame.shape[1]-200
-	pt1 = (pt1x, pt1y)
-	pt2 = (pt2x, pt2y)
-	cropped_frame = frame[pt1y:pt2y, pt1x:pt2x]
+long_string = cleanText(long_string)
 
-	cv2.rectangle(rectangled_frame, pt1, pt2, (0,255,255), 2)
-	rectangled_frame = rectangled_frame[:, :, ::-1]
-
-	hsv_frame = cv2.cvtColor(cropped_frame, cv2.COLOR_RGB2HSV)
-	cv2.imshow("resim", hsv_frame)
-
-
-	H1 = int(cv2.getTrackbarPos("H1","resim")/2)
-	H2 = int(cv2.getTrackbarPos("H2","resim")/2)
-	S1 = cv2.getTrackbarPos("S1","resim")
-	S2 = cv2.getTrackbarPos("S2","resim")
-	V1 = cv2.getTrackbarPos("V1","resim")
-	V2 = cv2.getTrackbarPos("V2","resim")
-	lower = (H1, S1, V1)
-	upper = (H2, S2, V2)
-	#For BGR to RGB or RGB to BGR
-	new_frame = frame[:, :, ::-1]
-	mask = cv2.inRange(frame, lower, upper)
-	res = cv2.bitwise_and(frame, frame, mask=mask)
-	res = res[:, :, ::-1]
-
-	
-	cv2.imshow("mask", mask)
-	cv2.imshow("res", res)
-	cv2.imshow("original",frame[:, :, ::-1])
-	if cv2.waitKey(1) & 0xFF==ord("q"):
-		break 
-			
-cv2.destroyAllWindows()
+plt.imshow(wordcloud_example, interpolation='bilinear')
+plt.axis("off")
+plt.show()
 ```
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118406706-a8925500-b685-11eb-94ac-dc603614f89f.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 1 - First Wordluod Sample"%}
+<b>
+But it isnt give us a good plot. We have words like "said, ve, take, got, re". These words don't mean anything to us. So we gotta throw these. Let's drop both the meaningless words and the words we dont want to show up.
+
+```python
+stopwords = set(wordcloud.STOPWORDS)
+stopwords.add("page")
+stopwords.add("said")
+stopwords.add("ve")
+stopwords.add("on")
+stopwords.add("take")
+stopwords.add("re")
+stopwords.add("got")
+wordcloud_example = wordcloud.WordCloud().generate(long_string)
+
+wordcloud_example = wordcloud.WordCloud(stopwords=stopwords).generate(long_string)
+
+plt.imshow(wordcloud_example, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+```
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118406706-a8925500-b685-11eb-94ac-dc603614f89f.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 2 - With Remove the Stop Words"%}
+<b>
+
+## Let's try with an image!
+```python
+harry_img_path = books_path + "/hp.jpg"
+mask = np.array(Image.open(harry_img_path))
+
+wordcloud_example = wordcloud.WordCloud(stopwords=stopwords, mask=mask, background_color="white").generate(long_string)
+
+figure(dpi=200)
+plt.imshow(wordcloud_example)
+plt.axis("off")
+plt.show()
+
+#For save the plot img 
+#wordcloud_example.to_file("wordcloud.png")
+```
+
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118406708-a9c38200-b685-11eb-8bfe-92b5ad7234d7.png
+{% endcapture %}
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118406705-a62ffb00-b685-11eb-86c3-6bd23664eea5.png
+{% endcapture %}
+{% include gallery images=images cols=2 caption="Figure 2 - With Remove the Stop Words"%}
+<b>
 
 Also, if you want to watch the video prepared by our project group, [you can click here](https://www.youtube.com/watch?v=0Dsjd2Zoi54). 
 
