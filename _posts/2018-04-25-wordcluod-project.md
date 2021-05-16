@@ -129,9 +129,85 @@ plt.show()
 	https://user-images.githubusercontent.com/56072259/118406708-a9c38200-b685-11eb-8bfe-92b5ad7234d7.png
 	https://user-images.githubusercontent.com/56072259/118406705-a62ffb00-b685-11eb-86c3-6bd23664eea5.png
 {% endcapture %}
-{% include gallery images=images cols=2 caption="Figure 3 - With a random black and white image"%}
+{% include gallery images=images cols=2 caption="Figure 3 - With a random black and white png image"%}
 <b>
 
-Also, if you want to watch the video prepared by our project group, [you can click here](https://www.youtube.com/watch?v=0Dsjd2Zoi54). 
+## What if our image is not black and white?
+
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118407048-80a3f100-b687-11eb-9749-36c17f713348.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 4 - The Sorting Hat"%}
+<b>
+
+We can convert this images to black and white. But.. wait a minute. How do we choose the part we want? Of course with the threshold!
+
+```python
+gray = cv2.cvtColor(cv2.cvtColor(img, cv2.COLOR_BGR2RGB), cv2.COLOR_BGR2GRAY)
+# cv2_imshow(gray)
+
+(T, threshold) = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
+with_thresh = cv2.medianBlur(threshold, 15, 0)
+#cv2_imshow(with_thresh)
+
+(T_inv, threshold_inv) = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY_INV)
+with_thresh_inv = cv2.medianBlur(threshold_inv, 15, 0)
+#cv2_imshow(with_thresh_inv)
+```
+
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118407232-79c9ae00-b688-11eb-9359-4bb2cb7b13b5.png
+	https://user-images.githubusercontent.com/56072259/118407229-79311780-b688-11eb-842f-89f2de9100c9.png
+	https://user-images.githubusercontent.com/56072259/118407231-79c9ae00-b688-11eb-8fea-607b17c78494.png
+{% endcapture %}
+{% include gallery images=images cols=3 caption="Figure 4 - With different threshold methods"%}
+<b>
+
+So lets try with the sorting hat!
+```python
+wordcloud_example = wordcloud.WordCloud(stopwords=stopwords, mask=with_thresh, background_color="white").generate(long_string)
+
+figure(dpi=200)
+plt.imshow(wordcloud_example)
+plt.axis("off")
+plt.show()
+
+#For save the plot img 
+#wordcloud_example.to_file("wordcloud.png")
+```
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118407361-2146e080-b689-11eb-9b7d-ec4238e11329.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 5 - Sorting hat but with words"%}
+<b>
+
+Also, if you want to draw boundaries the mask:
+```python
+wordcloud_example = wordcloud.WordCloud(stopwords=stopwords, mask=with_thresh, background_color="white").generate(long_string)
+
+figure(dpi=200)
+plt.imshow(wordcloud_example)
+plt.axis("off")
+plt.show()
+
+#For save the plot img 
+#wordcloud_example.to_file("wordcloud.png")
+```python
+wordcloud_example = wordcloud.WordCloud(stopwords=stopwords, mask=with_thresh, contour_width=3, contour_color='firebrick', background_color="white").generate(long_string)
+figure(dpi=200)
+plt.imshow(wordcloud_example)
+plt.axis("off")
+plt.show()
+```
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118407361-2146e080-b689-11eb-9b7d-ec4238e11329.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 6 - Sorting hat but with words.. also boundaries"%}
+<b>
+
 
 ## Thanks for reading my project!
