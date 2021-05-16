@@ -30,25 +30,36 @@ In the soft start method, voltage control is performed with two different approa
 
 Figure 1 below shows the waveforms observed at the output when AC supply voltage alternations are transferred to the output at 25%, 50%, 75% and 100% rates. The areas that work in the instruments are filled with blue color. In areas not filled with blue, the output voltage is 0V.
 
+<b>
+
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118392206-0fd9e600-b641-11eb-9f05-9264298d9c2a.png
 {% endcapture %}
 {% include gallery images=images caption="Figure 1 - Phase Angle Control"%}
 
+<b>
+
 Zero crossing control, which is another soft starting approach, is also called "burst fire control" in the literature. For example, as shown in the figure below, when the rate of 25% is selected, only 1 of every 4 full sine waves coming from the AC power line is sent to the output. A kind of batch model is applied. As a result, the engine runs with 25% power. In Figure 2 below, the waveforms obtained at the output in the zero-crossing control approach with 25%, 50%, 75% and 100% ratios are shown.
+
+<b>
 
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118392451-79a6bf80-b642-11eb-8fe4-d612cf80a10d.png
 {% endcapture %}
 {% include gallery images=images caption="Figure 2 - Burst Fire Control"%}
 
+<b>
+
 That's enough theoretical enough, now we can go into practice and set up our circuit. First, let's draw our circuit using the program called proteus. We will observe the frequency changes here on an LED. For this, we will have 4 buttons that will perform start, stop, phase age control and burst fire control functions.
 
+<b>
 
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118392627-326cfe80-b643-11eb-98e1-19f21689db27.jpg
 {% endcapture %}
 {% include gallery images=images caption="Figure 3 - Proteus Simulation"%}
+
+<b>
 
 ## Parts of the Circuit Stated in the Simulation
 
@@ -71,17 +82,25 @@ While the circuit is set up, since there is no earth connection in the simulatio
 
 The signals for the mentioned situation are given below.
 
+<b>
+
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118393427-c5a83300-b647-11eb-97cc-7a82b6269947.png
 {% endcapture %}
 {% include gallery images=images caption="Figure 4 - Waves"%}
 
+<b>
+
 One of the Arduino's digital outputs is used to turn the lamp on. The optocoupler is triggered by pulses generated from here. The reason for using optocouplers is to aim to provide isolation in the circuit. In this way, malfunctions of the circuit elements due to possible overvoltages are prevented. The triggered optocoupler also conducts the triac connected at its output. Here, by using a triac instead of a thyristor, the negative alternans coming from the AC source is also provided to pass through the lamp. When triggering the optocoupler, the required switching time for the phase shift mode and the number of waves required for the zero crossing mode are considered for both modes.
+
+<b>
 
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118393517-46ffc580-b648-11eb-8bfa-e591add8ba4d.jpg
 {% endcapture %}
 {% include gallery images=images caption="Figure 5 - Circuit"%}
+
+<b>
 
 ## Arduino Code:
 ```arduino
