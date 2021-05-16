@@ -127,8 +127,6 @@ plt.show()
 <b>
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118406708-a9c38200-b685-11eb-8bfe-92b5ad7234d7.png
-{% endcapture %}
-{% capture images %}
 	https://user-images.githubusercontent.com/56072259/118406705-a62ffb00-b685-11eb-86c3-6bd23664eea5.png
 {% endcapture %}
 {% include gallery images=images cols=2 caption="Figure 3 - With a random black and white image"%}
