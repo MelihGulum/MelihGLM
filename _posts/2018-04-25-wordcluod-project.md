@@ -138,7 +138,7 @@ plt.show()
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118407048-80a3f100-b687-11eb-9749-36c17f713348.png
 {% endcapture %}
-{% include gallery images=images caption="Figure 4 - The Sorting Hat"%}
+{% include gallery images=images cols=2 caption="Figure 4 - The Sorting Hat"%}
 <b>
 
 We can convert this images to black and white. But.. wait a minute. How do we choose the part we want? Of course with the threshold!
@@ -204,7 +204,7 @@ plt.show()
 ```
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118407361-2146e080-b689-11eb-9b7d-ec4238e11329.png
+	https://user-images.githubusercontent.com/56072259/118407358-20ae4a00-b689-11eb-926a-5198dfe9fc69.jpg
 {% endcapture %}
 {% include gallery images=images caption="Figure 6 - Sorting hat but with words.. also boundaries"%}
 <b>
