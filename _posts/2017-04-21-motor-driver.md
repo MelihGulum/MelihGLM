@@ -103,8 +103,7 @@ One of the Arduino's digital outputs is used to turn the lamp on. The optocouple
 <b>
 
 ## Arduino Code:
-```arduino
-
+```c
 //Interrupt fonksiyonları:
 void interrupt();
 void stopfunc();
