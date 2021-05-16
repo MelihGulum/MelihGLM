@@ -139,129 +139,128 @@ const byte stopbutton = 3; // stop butonu için interrupt pini ataması
 
 void setup() {
 
-  //pinlerin giriş/çıkış özellikleri tanımlanır:
-pinMode(potpin, INPUT); 
-pinMode(stopbutton, INPUT); 
-pinMode(startbutton, INPUT);
-pinMode(fazbutton, INPUT);
-pinMode(sifirbutton, INPUT);
-pinMode(ledPin, OUTPUT);
-pinMode(lamp, OUTPUT);
+	//pinlerin giriş/çıkış özellikleri tanımlanır:
+	pinMode(potpin, INPUT); 
+	pinMode(stopbutton, INPUT); 
+	pinMode(startbutton, INPUT);
+	pinMode(fazbutton, INPUT);
+	pinMode(sifirbutton, INPUT);
+	pinMode(ledPin, OUTPUT);
+	pinMode(lamp, OUTPUT);
 
-//sıfır geçiş için her yükselen kenarda tetiklenen interrupt tanımlanır:
-attachInterrupt(digitalPinToInterrupt(interruptPin), interrupt, RISING);
+	//sıfır geçiş için her yükselen kenarda tetiklenen interrupt tanımlanır:
+	attachInterrupt(digitalPinToInterrupt(interruptPin), interrupt, RISING);
 
-//stop butonu için yükselen kenarda tetiklenen interrupt tanımlanır:
-attachInterrupt(digitalPinToInterrupt(stopbutton), stopfunc, RISING);
+	//stop butonu için yükselen kenarda tetiklenen interrupt tanımlanır:
+	attachInterrupt(digitalPinToInterrupt(stopbutton), stopfunc, RISING);
 }
 
 void loop() {
 
-//dijital inputların okunması:
-startstate = digitalRead(startbutton);
-fazstate = digitalRead(fazbutton);
-sifirstate = digitalRead(sifirbutton);
+	//dijital inputların okunması:
+	startstate = digitalRead(startbutton);
+	fazstate = digitalRead(fazbutton);
+	sifirstate = digitalRead(sifirbutton);
 
-//dijital çıkışların sıfırlanması:
-digitalWrite(lamp, LOW);
-digitalWrite(ledPin, LOW);
+	//dijital çıkışların sıfırlanması:
+	digitalWrite(lamp, LOW);
+	digitalWrite(ledPin, LOW);
   
-if(startstate == HIGH){ //start butonuna basılmışsa
-motorrun = 1; //motor durumu değişimi (on)
+	if(startstate == HIGH){ //start butonuna basılmışsa
+	motorrun = 1; //motor durumu değişimi (on)
+	}
+
+	if (motorrun==1){ //start butonuna basılmışsa
+
+		if (fazstate == HIGH){ // faz kaydırma modu seçilmişse
+			led = 1; //mod durum ledi
+			mod = 1; 
+		}
+
+		else if(sifirstate == HIGH){ // sıfır geçiş modu seçilmişse
+			led = 0; //mod durum ledi
+			mod =0;
+		}
+
+		digitalWrite(ledPin, led); // sürme modu için led durumu
+		potval = analogRead(potpin); //potansiyometreden okunan değer
+		pottime = map(potval, 0, 1023, 10, 1000); //potansiyometreden okunan değerin süre 
+		//değeri (ms) olarak map edilmesi
+	}
+
+	else if(motorrun==0){ //stop butonuna basılmışsa
+		digitalWrite(ledPin, led); //led durumu güncellenmesi
+	}
 }
 
-if (motorrun==1){ //start butonuna basılmışsa
-
-if (fazstate == HIGH){ // faz kaydırma modu seçilmişse
-led = 1; //mod durum ledi
-mod = 1; 
-}
-
-else if(sifirstate == HIGH){ // sıfır geçiş modu seçilmişse
-led = 0; //mod durum ledi
-mod =0;
-}
-
-digitalWrite(ledPin, led); // sürme modu için led durumu
-potval = analogRead(potpin); //potansiyometreden okunan değer
-pottime = map(potval, 0, 1023, 10, 1000); //potansiyometreden okunan değerin süre 
-//değeri (ms) olarak map edilmesi
-}
-
-else if(motorrun==0){ //stop butonuna basılmışsa
-digitalWrite(ledPin, led); //led durumu güncellenmesi
-}
-}
 void interrupt() { //sıfır geçişlerin algılanması için interrupt fonksiyonu
 
-//pottime değerinin en yakın 10 tabanlı sayıya yuvarlanması (10’ar 10’ar artış için):
-pottime = (pottime + 5)/10;
-pottime = 10*pottime;
+	//pottime değerinin en yakın 10 tabanlı sayıya yuvarlanması (10’ar 10’ar artış için):
+	pottime = (pottime + 5)/10;
+	pottime = 10*pottime;
 
-if(motorrun==1& (mod==1| mod==0)){ //motor çalışıyorsa ve mod seçilmişse
-potcount++; // her sıfır geçişinde counter 1 arttırılsın
-if (potcount*10==pottime){ //potansiyometreden okunan zaman ile counter 
-//karşılaştırması
-if (offtime!=0) {offtime-=1;} //offtime değerinin azaltılması
-if (ref!=0) {ref+=2;} // ref (dalga sayısı) değerinin arttırılması
-potcount=0; //counter sıfırlanması
-}
-}
+	if(motorrun==1& (mod==1| mod==0)){ //motor çalışıyorsa ve mod seçilmişse
+		potcount++; // her sıfır geçişinde counter 1 arttırılsın
+		if (potcount*10==pottime){ //potansiyometreden okunan zaman ile counter 
+		//karşılaştırması
+			if (offtime!=0) {offtime-=1;} //offtime değerinin azaltılması
+			if (ref!=0) {ref+=2;} // ref (dalga sayısı) değerinin arttırılması
+			potcount=0; //counter sıfırlanması
+		}
+	}
 
-else if(motorrun==0 & (mod==1 | mod==0)){ //stop butonuna basılmışsa ve mod 
-//seçilmişse
-potcount++; // her sıfırda counter 1 arttırılsın
-if (potcount*10==pottime){ //potansiyometreden okunan zaman ile counter 
-//karşılaştırması
-if (offtime!=10) {offtime+=1;} //offtime değerinin arttırılması
+	else if(motorrun==0 & (mod==1 | mod==0)){ //stop butonuna basılmışsa ve mod 
+	//seçilmişse
+		potcount++; // her sıfırda counter 1 arttırılsın
+		if (potcount*10==pottime){ //potansiyometreden okunan zaman ile counter 
+		//karşılaştırması
+			if (offtime!=10) {offtime+=1;} //offtime değerinin arttırılması
 
-if (ref!=20) {ref-=2;} // ref (dalga sayısı) değerinin azaltılması
+			if (ref!=20) {ref-=2;} // ref (dalga sayısı) değerinin azaltılması
 
-if (offtime==10 | ref == 20){ //çıkışı sıfır yapacak değerlerden birine ulaşılmışsa
-mod=2; // mod değeri resetlensin
-led =0; // led kapatılsın
-}
+			if (offtime==10 | ref == 20){ //çıkışı sıfır yapacak değerlerden birine ulaşılmışsa
+				mod=2; // mod değeri resetlensin
+				led =0; // led kapatılsın
+			}
 
-potcount=0; // counter sıfırlansın
-}
-}
+			potcount=0; // counter sıfırlansın
+		}
+	}
 
-if(mod==1){ // faz kaydırma modu için
+	if(mod==1){ // faz kaydırma modu için
 
-if (offtime > 0 & offtime < 10) {
-delayMicroseconds(offtime * 1000); // offtime kadar erteleme
-digitalWrite(lamp, HIGH); //çıkış pini tetikleme
-delayMicroseconds(250);
-digitalWrite(lamp, LOW); //çıkış pini 0'a çekiliş  
-}
+		if (offtime > 0 & offtime < 10) {
+			delayMicroseconds(offtime * 1000); // offtime kadar erteleme
+			digitalWrite(lamp, HIGH); //çıkış pini tetikleme
+			delayMicroseconds(250);
+			digitalWrite(lamp, LOW); //çıkış pini 0'a çekiliş  
+		}
 
 
-else if (offtime == 0) {
-digitalWrite(lamp, HIGH); //çıkış pini tetikleme
-delayMicroseconds(500);
-digitalWrite(lamp, LOW); //çıkış pini 0'a çekiliş
-} 
-}
+		else if (offtime == 0) {
+			digitalWrite(lamp, HIGH); //çıkış pini tetikleme
+			delayMicroseconds(500);
+			digitalWrite(lamp, LOW); //çıkış pini 0'a çekiliş
+		} 
+	}
 
-if(mod==0){  // sıfır geçiş modu için
-count++; //sıfır geçiş için sayıcı değişkeni
+	if(mod==0){  // sıfır geçiş modu için
+		count++; //sıfır geçiş için sayıcı değişkeni
 
-if (count==21){ //10 tam dalga sayılmışsa
-count = 1; //sayıcı=1 olarak kabul edilip (sıfırlanıp) işleme devam edilir
-}
+		if (count==21){ //10 tam dalga sayılmışsa
+			count = 1; //sayıcı=1 olarak kabul edilip (sıfırlanıp) işleme devam edilir
+		}
 
-if(count <= ref){ // counter o anki dalga sayısından küçük ve eşitse
-digitalWrite(lamp, HIGH); // çıkış pini tetikleme
-delayMicroseconds(600);
-digitalWrite(lamp, LOW); //çıkış pini 0'a çekiliş   
-}
-}
+		if(count <= ref){ // counter o anki dalga sayısından küçük ve eşitse
+			digitalWrite(lamp, HIGH); // çıkış pini tetikleme
+			delayMicroseconds(600);
+			digitalWrite(lamp, LOW); //çıkış pini 0'a çekiliş   
+		}
+	}
 }
 void stopfunc(){ // stop butonuna basılmışsa kesme yaratacak interrupt fonksiyonu
   motorrun = 0; // durum değişimi
 }
-
-
 ```
 
 Also, if you want to watch the video prepared by our project group, [you can click here](https://www.youtube.com/watch?v=0Dsjd2Zoi54). 
