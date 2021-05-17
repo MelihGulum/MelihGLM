@@ -74,7 +74,7 @@ Our next object is a cigarette. However, I do not use smoking, this time I will 
 	https://user-images.githubusercontent.com/56072259/118529081-c924e280-b74b-11eb-905d-6fb96e574952.png
 	https://user-images.githubusercontent.com/56072259/118529088-ca560f80-b74b-11eb-8438-4a1c42b54e73.png
 {% endcapture %}
-{% include gallery images=images cols=4 caption="Figure 3 - Output"%}
+{% include gallery images=images cols=2 rows=2 caption="Figure 3 - Output"%}
 <b>
 
 
