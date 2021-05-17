@@ -52,7 +52,7 @@ Yeah! We pass the test :D Now let's look at the others.
 	https://user-images.githubusercontent.com/56072259/118527730-3d5e8680-b74a-11eb-91d6-ecb2d36340bc.png
 	https://user-images.githubusercontent.com/56072259/118527754-418aa400-b74a-11eb-9ae9-6461d4df99fe.png
 {% endcapture %}
-{% include gallery images=images cols=3 caption="Figure 2 - Sunglasses Detect with Cool Matrix Sunglasses "%}
+{% include gallery images=images cols=3 caption="Figure 3 - Sunglasses Detect with Cool Matrix Sunglasses "%}
 <b>
 
 Lol, if you can stop laughing, we can look at our next object, smartphones.
@@ -62,7 +62,7 @@ Lol, if you can stop laughing, we can look at our next object, smartphones.
 	https://user-images.githubusercontent.com/56072259/118528329-dee5d800-b74a-11eb-8fb8-4520fff07200.png
 	https://user-images.githubusercontent.com/56072259/118528343-e2795f00-b74a-11eb-96bc-94c07439e56a.png
 {% endcapture %}
-{% include gallery images=images cols=3 caption="Figure 3 - Smartphone Detection "%}
+{% include gallery images=images cols=3 caption="Figure 4 - Smartphone Detection "%}
 <b>
 
 Our next object is a cigarette. However, I do not use smoking, this time I will ask my model to predict the images I found on the internet.
@@ -72,13 +72,12 @@ Our next object is a cigarette. However, I do not use smoking, this time I will 
 	https://user-images.githubusercontent.com/56072259/118529094-cb873c80-b74b-11eb-950d-9dd44369803a.png
 	https://user-images.githubusercontent.com/56072259/118529078-c7f3b580-b74b-11eb-954e-e13c1ef6dd70.png
 	https://user-images.githubusercontent.com/56072259/118529081-c924e280-b74b-11eb-905d-6fb96e574952.png
-	https://user-images.githubusercontent.com/56072259/118529088-ca560f80-b74b-11eb-8438-4a1c42b54e73.png
+	https://user-images.githubusercontent.com/56072259/118531356-6b45ca00-b74e-11eb-8bc8-d1c54a4ded4e.png
 {% endcapture %}
-{% include gallery images=images cols=2 rows=2 caption="Figure 3 - Output"%}
+{% include gallery images=images cols=2 rows=2 caption="Figure 5 - Cigarette Detection "%}
 <b>
 
 
 
-Also, if you want to watch the video prepared by our project group, [you can click here](https://www.youtube.com/watch?v=0Dsjd2Zoi54). 
 
 ## Thanks for reading my project!
