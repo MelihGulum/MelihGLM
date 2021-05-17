@@ -70,9 +70,8 @@ Our next object is a cigarette. However, I do not use smoking, this time I will 
 <b>
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118529094-cb873c80-b74b-11eb-950d-9dd44369803a.png
-	https://user-images.githubusercontent.com/56072259/118398039-82f25500-b65f-11eb-833b-f30bd4c8e436.png
 	https://user-images.githubusercontent.com/56072259/118529078-c7f3b580-b74b-11eb-954e-e13c1ef6dd70.png
-https://user-images.githubusercontent.com/56072259/118529081-c924e280-b74b-11eb-905d-6fb96e574952.png
+	https://user-images.githubusercontent.com/56072259/118529081-c924e280-b74b-11eb-905d-6fb96e574952.png
 	https://user-images.githubusercontent.com/56072259/118529088-ca560f80-b74b-11eb-8438-4a1c42b54e73.png
 {% endcapture %}
 {% include gallery images=images cols=4 caption="Figure 3 - Output"%}
