@@ -19,7 +19,7 @@ Detection
 * time
 * darknet
 * ctypes
-* Flask
+* flask
 
 
 ## Explanation the Project
@@ -32,8 +32,8 @@ Now, let's try to see what the tooth numbering is done according to what and whi
 
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118598381-a4198980-b7b6-11eb-9e47-03d9fcd6ae33.png
-	https://user-images.githubusercontent.com/56072259/118598386-a54ab680-b7b6-11eb-875d-1e4eba9d37eb.png
+	https://user-images.githubusercontent.com/56072259/118599343-0a52dc00-b7b8-11eb-91eb-53f68b58a773.png
+	https://user-images.githubusercontent.com/56072259/118599352-0d4dcc80-b7b8-11eb-90e9-f125e41b0091.png
 {% endcapture %}
 {% include gallery images=images cols=2 caption="Figure 2 - Teeth Numbering and Diseases "%}
 <b>
