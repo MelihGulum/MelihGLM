@@ -35,53 +35,34 @@ Now, let's try to see what the tooth numbering is done according to what and whi
 	https://user-images.githubusercontent.com/56072259/118599343-0a52dc00-b7b8-11eb-91eb-53f68b58a773.png
 	https://user-images.githubusercontent.com/56072259/118599352-0d4dcc80-b7b8-11eb-90e9-f125e41b0091.png
 {% endcapture %}
-{% include gallery images=images cols=2 caption="Figure 2 - Teeth Numbering and Diseases "%}
+{% include gallery images=images cols=2 caption="Figure 1 - Teeth Numbering and Diseases "%}
 <b>
 
-But it is not that easy. We have a test! Lets see if it say mask or not.
+While it took about 6 months to get approval from Tubitak, we are still working on improving the project and presenting it to the customer. Estimates reaching 84% in teeh numbering and 91% in diagnosis were made. But I can show you the findings on how our graduation project turned out.
 
-<b>
-{% capture images %}
-	https://user-images.githubusercontent.com/56072259/118527257-c9bc7980-b749-11eb-9684-9d343ae76d9a.png
-{% endcapture %}
-{% include gallery images=images caption="Figure 2 - Simple Test For Mask Detection "%}
-<b>
-
-
-Yeah! We pass the test :D Now let's look at the others. 
+## &#8594; For Teeth Numbering
 
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118527765-43ecfe00-b74a-11eb-8724-0f7a076b38eb.png
-	https://user-images.githubusercontent.com/56072259/118527730-3d5e8680-b74a-11eb-91d6-ecb2d36340bc.png
-	https://user-images.githubusercontent.com/56072259/118527754-418aa400-b74a-11eb-9ae9-6461d4df99fe.png
+	https://user-images.githubusercontent.com/56072259/118635531-60d21180-b7dc-11eb-854c-ec8d1cdf6708.jpg
+	https://user-images.githubusercontent.com/56072259/118635538-629bd500-b7dc-11eb-8fbf-a82a17b84e0d.jpg
 {% endcapture %}
-{% include gallery images=images cols=3 caption="Figure 3 - Sunglasses Detect with Cool Matrix Sunglasses "%}
+{% include gallery images=images cols=2 %}
 <b>
 
-Lol, if you can stop laughing, we can look at our next object, smartphones.
-<b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118528304-d8eff700-b74a-11eb-8c68-86b0e26a2811.png
-	https://user-images.githubusercontent.com/56072259/118528329-dee5d800-b74a-11eb-8fb8-4520fff07200.png
-	https://user-images.githubusercontent.com/56072259/118528343-e2795f00-b74a-11eb-96bc-94c07439e56a.png
+	https://user-images.githubusercontent.com/56072259/118635550-64659880-b7dc-11eb-88b6-e12fda50fc7c.jpg
+	https://user-images.githubusercontent.com/56072259/118635551-64fe2f00-b7dc-11eb-9103-29dafb7b0e76.jpg
 {% endcapture %}
-{% include gallery images=images cols=3 caption="Figure 4 - Smartphone Detection "%}
+{% include gallery images=images cols=2 %}
 <b>
 
-Our next object is a cigarette. However, I do not use smoking, this time I will ask my model to predict the images I found on the internet.
-
-<b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118529094-cb873c80-b74b-11eb-950d-9dd44369803a.png
-	https://user-images.githubusercontent.com/56072259/118529078-c7f3b580-b74b-11eb-954e-e13c1ef6dd70.png
-	https://user-images.githubusercontent.com/56072259/118529081-c924e280-b74b-11eb-905d-6fb96e574952.png
-	https://user-images.githubusercontent.com/56072259/118531356-6b45ca00-b74e-11eb-8bc8-d1c54a4ded4e.png
+	https://user-images.githubusercontent.com/56072259/118635556-64fe2f00-b7dc-11eb-84fd-04019c8a124b.jpg
+	https://user-images.githubusercontent.com/56072259/118635525-60397b00-b7dc-11eb-879d-c48da9ede669.jpg
 {% endcapture %}
-{% include gallery images=images cols=2 rows=2 caption="Figure 5 - Cigarette Detection "%}
+{% include gallery images=images cols=2 caption="Figure 2 - Dentist vs Machine vol 1"%}
 <b>
-
-
 
 
 ## Thanks for reading my project!
