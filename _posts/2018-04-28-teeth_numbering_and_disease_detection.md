@@ -42,6 +42,8 @@ While it took about 6 months to get approval from Tubitak, we are still working 
 
 ## &#8594; For Teeth Numbering
 
+Like i said, we have 32 class(cause adults have 32 teeth). These are some examples:
+
 <b>
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118635531-60d21180-b7dc-11eb-854c-ec8d1cdf6708.jpg
@@ -66,6 +68,8 @@ While it took about 6 months to get approval from Tubitak, we are still working 
 
 ## &#8594; For Detecting Disease
 
+We have 12 classes for disease detection. While choosing these diseases, we discussed with our dentist teachers and selected the diseases that we think the machine can find.
+
 <b>
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118688397-b2938f80-b80e-11eb-961c-bf9d1f3bd519.jpg
@@ -86,6 +90,14 @@ While it took about 6 months to get approval from Tubitak, we are still working 
 	https://user-images.githubusercontent.com/56072259/118688425-b7584380-b80e-11eb-9fd4-f807add6397e.jpg
 {% endcapture %}
 {% include gallery images=images cols=2 caption="Figure 3 - Dentist vs Machine vol 2"%}
+<b>
+
+But it isn't enough! We want to be able to say "this tooth has this disease". Therefore, we can make this interpretation by looking at the areas of intersections of the coordinate information we have. If the intersection area is larger than the threshold value we have determined, we can take it as an intersection.
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118702332-79aee700-b81d-11eb-9824-e0b2e6940510.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 3 - Dentist vs Machine vol 2"%}
 <b>
 
 
