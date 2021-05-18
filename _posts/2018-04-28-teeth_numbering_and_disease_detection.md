@@ -97,8 +97,59 @@ But it isn't enough! We want to be able to say "this tooth has this disease". Th
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118702332-79aee700-b81d-11eb-9824-e0b2e6940510.png
 {% endcapture %}
-{% include gallery images=images caption="Figure 3 - Dentist vs Machine vol 2"%}
+{% include gallery images=images caption="Figure 4 - Logic of intersections "%}
 <b>
+
+It isnt finish yer either lol. In order to make this a user-friendly project, we designed an interface with the help of Flask and with this interface we made an interactive site with the user. In our site we run in local, there is a survey page where we can get feedback from the user, and a page where we can get x-rays from the user and return estimates. As a classic website, there is a homepage, about and thanks section. I guess it will be best to show the screenshots.
+
+**&#8594; Homepage**
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118706901-939ef880-b822-11eb-8dda-9a526570fa7f.png
+	https://user-images.githubusercontent.com/56072259/118706902-94d02580-b822-11eb-9de7-0a99e120454a.png
+	https://user-images.githubusercontent.com/56072259/118706906-96015280-b822-11eb-8b27-ded3b289bf4c.png
+{% endcapture %}
+{% include gallery images=images cols=3 caption="Figure 5 - Homepage "%}
+<b>
+
+**&#8594; How it Works?**
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118706910-9699e900-b822-11eb-8bb7-6437139e5161.png
+	https://user-images.githubusercontent.com/56072259/118706913-97327f80-b822-11eb-9016-4f0d6c6eed54.png
+	https://user-images.githubusercontent.com/56072259/118706919-9863ac80-b822-11eb-93fe-06ec16b686ea.png
+{% endcapture %}
+{% include gallery images=images cols=3 caption="Figure 6 - How it Works? "%}
+<b>
+
+
+**&#8594; Survey Page**
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118706922-98fc4300-b822-11eb-8336-160bf7f6cba2.png
+	https://user-images.githubusercontent.com/56072259/118706923-9994d980-b822-11eb-8ebb-51039acac3c3.png
+{% endcapture %}
+{% include gallery images=images cols=2 caption="Figure 7 - Survey Page "%}
+<b>
+
+**&#8594; Thanks Page**
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118706926-9994d980-b822-11eb-8b3b-4c11a60bf0f9.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 8 - Thanks Page "%}
+<b>
+
+**&#8594; Predict Page**
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118706896-93066200-b822-11eb-8d4b-6d122cf0f8fb.png
+{% endcapture %}
+{% include gallery images=images caption="Figure 8 - Thanks Page "%}
+<b>
+
+I am aware that I cannot give much information about the code, but I cannot share them yet because the incorporation has taken place in line with this project. However, if you have any questions, I would be happy to help. You can [contact me here](https://www.linkedin.com/in/semih-gulum/).
+
 
 
 ## Thanks for reading my project!
