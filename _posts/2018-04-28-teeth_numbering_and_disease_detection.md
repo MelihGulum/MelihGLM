@@ -64,5 +64,29 @@ While it took about 6 months to get approval from Tubitak, we are still working 
 {% include gallery images=images cols=2 caption="Figure 2 - Dentist vs Machine vol 1"%}
 <b>
 
+## &#8594; For Detecting Disease
+
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118688397-b2938f80-b80e-11eb-961c-bf9d1f3bd519.jpg
+	https://user-images.githubusercontent.com/56072259/118688404-b3c4bc80-b80e-11eb-9074-4361732ca04a.jpg
+{% endcapture %}
+{% include gallery images=images cols=2 %}
+<b>
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118688415-b58e8000-b80e-11eb-8f5c-e9f4c7cb5c5d.jpg
+	https://user-images.githubusercontent.com/56072259/118688419-b6271680-b80e-11eb-8d83-281b22a3d1e8.jpg
+{% endcapture %}
+{% include gallery images=images cols=2 %}
+<b>
+
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118688421-b6bfad00-b80e-11eb-8109-52b800fb31dd.jpg
+	https://user-images.githubusercontent.com/56072259/118688425-b7584380-b80e-11eb-9fd4-f807add6397e.jpg
+{% endcapture %}
+{% include gallery images=images cols=2 caption="Figure 3 - Dentist vs Machine vol 2"%}
+<b>
+
 
 ## Thanks for reading my project!
