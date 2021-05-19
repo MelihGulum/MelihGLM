@@ -127,7 +127,7 @@ plt.show()
 <b>
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/118406708-a9c38200-b685-11eb-8bfe-92b5ad7234d7.png
-	https://user-images.githubusercontent.com/56072259/118406705-a62ffb00-b685-11eb-86c3-6bd23664eea5.png
+	https://user-images.githubusercontent.com/56072259/118791158-1fef0100-b89f-11eb-9920-761e300dde72.png
 {% endcapture %}
 {% include gallery images=images cols=2 caption="Figure 3 - With a random black and white png image"%}
 <b>
@@ -162,7 +162,7 @@ with_thresh_inv = cv2.medianBlur(threshold_inv, 15, 0)
 	https://user-images.githubusercontent.com/56072259/118407229-79311780-b688-11eb-842f-89f2de9100c9.png
 	https://user-images.githubusercontent.com/56072259/118407231-79c9ae00-b688-11eb-8fea-607b17c78494.png
 {% endcapture %}
-{% include gallery images=images cols=3 caption="Figure 4 - With different threshold methods"%}
+{% include gallery images=images cols=3 caption="Figure 5 - With different threshold methods"%}
 <b>
 
 So lets try with the sorting hat!
@@ -179,9 +179,9 @@ plt.show()
 ```
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118407361-2146e080-b689-11eb-9b7d-ec4238e11329.png
+	https://user-images.githubusercontent.com/56072259/118792335-3c3f6d80-b8a0-11eb-97ed-77051b54fa79.png
 {% endcapture %}
-{% include gallery images=images caption="Figure 5 - Sorting hat but with words"%}
+{% include gallery images=images caption="Figure 6 - Sorting hat but with words"%}
 <b>
 
 Also, if you want to draw boundaries the mask:
@@ -194,10 +194,35 @@ plt.show()
 ```
 <b>
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118407358-20ae4a00-b689-11eb-926a-5198dfe9fc69.jpg
+	https://user-images.githubusercontent.com/56072259/118792330-3c3f6d80-b8a0-11eb-80ed-bb3e96b392c3.png
 {% endcapture %}
-{% include gallery images=images caption="Figure 6 - Sorting hat but with words.. also boundaries"%}
+{% include gallery images=images caption="Figure 7 - Sorting hat but with words.. also boundaries"%}
 <b>
 
+
+What if i wanna keep the colors of the original image. It is possible? Answer is yes! Take hermione, the savior of house elves, to give an example.Let's make the image black and white by passing through the same process. We will use the black and white one for masking and the original one for color. If you use black and white to colorize the picture, you will see the following error. 
+```python
+Gray-scale images TODO
+```
+
+Lets see the code and result:
+
+```python
+from wordcloud import ImageColorGenerator
+img1 = cv2.cvtColor(img, cv2.COLOR_RGB2BGR) #change the color space cause opencv and matplotlib uses different spaces
+image_colors = ImageColorGenerator(img1)
+figure(dpi=200)
+plt.imshow(wordcloud_example.recolor(color_func=image_colors), interpolation="bilinear")
+plt.axis("off")
+plt.show()
+```
+
+<b>
+{% capture images %}
+	https://user-images.githubusercontent.com/56072259/118792329-3b0e4080-b8a0-11eb-89c3-e37d8cc2793c.jpg
+	https://user-images.githubusercontent.com/56072259/118792338-3d709a80-b8a0-11eb-8afd-b0cc21a511f7.jpg
+{% endcapture %}
+{% include gallery images=images cols=2 caption="Figure 7 - Sorting hat but with words.. also boundaries"%}
+<b>
 
 ## Thanks for reading my project!
