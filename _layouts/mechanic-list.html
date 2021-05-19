@@ -22,8 +22,8 @@ layout: compress
                     </a>
                 </div>
                 <div class="mechanic-list">
-                    {% for mechanic in site.mechanic %} 
-                        {% if mechanic.project == null %}
+                    {% for post in site.mechanic %} 
+                        {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ mechanic.title }}</a>
