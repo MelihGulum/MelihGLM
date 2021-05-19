@@ -1,5 +1,5 @@
 ---
-layout: mechanics-list
+layout: mechanics
 title: "3 Phase Asynchronous Motor Driver Project"
 date: 2012-05-25
 excerpt: "Motor Drivers."
