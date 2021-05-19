@@ -1,6 +1,6 @@
 ---
 layout: mechanic-list
 title: My Mechanic Projects
-excerpt: "A List of Posts"
+excerpt: "A List of Mechanic Projects
 comments: false
 ---
