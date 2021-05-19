@@ -22,11 +22,9 @@ comments: true
 
 ## Explanation the Project
 
-In 2021 Autumn me and my dear project friend (Seçilay Kutal)[https://www.linkedin.com/in/se%C3%A7ilay-kutal-111b27154/] did the project. Since the dental topic is a subject outside of our field, we explained our project to the dentists who are the best in their field and we asked them for help to realize this project. 
-and as a result, we decided to realize a project together. Since the dental topic is a subject outside of our field, we explained our project to the dentists who are the best in their field and we asked them for help to realize this project. They also liked our idea and as a result we decided to do a project together.We even applied to Tübitak, which holds the most important R&D competitions of our country. Throughout the project, reports were delivered to the juries by keeping in touch with the juries, and at the end of the project, we became a Tübitak approved project.
 
-We have two models. One is numbering and the other is disease diagnosis. There are 32 classes in the numbering in this project for the adult mouth. In diagnosis, we carried out our training with 12 classes. 5000 x-rays were used for both training.
-Now, let's try to see what the tooth numbering is done according to what and which diagnoses look like what:
+
+This project is actually a continuation of our other project, tooth numbering and disease diagnosis in adults. After the semester, we wanted the project to be aimed at children, in order to expand the scope of the project. However, a child and an adult mouth are very different from each other. Therefore, we have started the project in a way with the creation of a new data set and the addition of new enumerations and new diseases. For example, the numbering for the adult individual is between 11-48 but 11-85 for the child. Again, we have two different model. 
 
 <b>
 {% capture images %}
