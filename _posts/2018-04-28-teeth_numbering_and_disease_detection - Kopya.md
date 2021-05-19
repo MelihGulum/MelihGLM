@@ -8,8 +8,6 @@ comments: true
     
 <center><b>Semih GULUM</b>    Mechatronic Engineer </center>
 
-Detection
-
 ## List of libraries used
 * openCV
 * matplotlib
@@ -24,7 +22,7 @@ Detection
 
 ## Explanation the Project
 
-In 2021 Autumn me and my dear project friend (Seçilay Kutal)[] did the project. Since the dental topic is a subject outside of our field, we explained our project to the dentists who are the best in their field and we asked them for help to realize this project. 
+In 2021 Autumn me and my dear project friend (Seçilay Kutal)[https://www.linkedin.com/in/se%C3%A7ilay-kutal-111b27154/] did the project. Since the dental topic is a subject outside of our field, we explained our project to the dentists who are the best in their field and we asked them for help to realize this project. 
 and as a result, we decided to realize a project together. Since the dental topic is a subject outside of our field, we explained our project to the dentists who are the best in their field and we asked them for help to realize this project. They also liked our idea and as a result we decided to do a project together.We even applied to Tübitak, which holds the most important R&D competitions of our country. Throughout the project, reports were delivered to the juries by keeping in touch with the juries, and at the end of the project, we became a Tübitak approved project.
 
 We have two models. One is numbering and the other is disease diagnosis. There are 32 classes in the numbering in this project for the adult mouth. In diagnosis, we carried out our training with 12 classes. 5000 x-rays were used for both training.
@@ -148,7 +146,7 @@ It isnt finish yer either lol. In order to make this a user-friendly project, we
 {% include gallery images=images caption="Figure 8 - Thanks Page "%}
 <b>
 
-I am aware that I cannot give much information about the code, but I cannot share them yet because the incorporation has taken place in line with this project. However, if you have any questions, I would be happy to help. You can [contact me here](https://www.linkedin.com/in/semih-gulum/).
+I am aware that I cannot give much information about the code but I cannot share them yet because the incorporation has taken place in line with this project. However, if you have any questions, I would be happy to help. You can [contact me here](https://www.linkedin.com/in/semih-gulum/).
 
 
 
