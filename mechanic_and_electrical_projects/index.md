@@ -1,6 +1,6 @@
 ---
-layout: posts-list
-title: My Mechanic Projects
-excerpt: "A List of Projects
+layout: post-list
+title: My Coding Projects
+excerpt: "A List of Posts"
 comments: false
 ---
