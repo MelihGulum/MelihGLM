@@ -1,14 +1,12 @@
 ---
 layout: post
-title: <i class="material-icons">build</i>"3 Phase Asynchronous Motor Driver Project"
+title: 3 Phase Asynchronous Motor Driver Project
 date: 2012-05-25
 excerpt: "Motor Drivers."
 tags: [sample post, readability, test]
 comments: true
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <center><b>Semih GULUM</b>    Mechatronic Engineer </center>
 
