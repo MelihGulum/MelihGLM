@@ -205,8 +205,4 @@ upper = np.array ([int (334/2), 255, 255])
 
 
 
-
-
-Also, if you want to watch the video prepared by our project group, [you can click here](https://www.youtube.com/watch?v=0Dsjd2Zoi54). 
-
 ## Thanks for reading my project!

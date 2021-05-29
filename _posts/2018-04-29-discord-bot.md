@@ -2,7 +2,7 @@
 layout: post
 title: Discord Bot
 date: 2012-05-30
-excerpt: Time Saver!
+excerpt: "Time Saver!"
 comments: true
 ---
     
