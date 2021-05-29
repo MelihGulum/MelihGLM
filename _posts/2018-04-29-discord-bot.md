@@ -22,7 +22,7 @@ When I was doing my internship at AdresGezgini, we used scrum methodology. Every
 I wrote some commands by specifying keywords. For example, when we type "/scrum", the links that we follow scrum come up. And if we type "/duty", we could see our tasks for that day.
 
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/118406706-a8925500-b685-11eb-94ac-dc603614f89f.png
+	https://user-images.githubusercontent.com/56072259/120064727-75cd6100-c076-11eb-9af4-1aacf11544ea.jpeg
 {% endcapture %}
 {% include gallery images=images caption="Figure 1 - Example Screenshot "%}
 <b>
