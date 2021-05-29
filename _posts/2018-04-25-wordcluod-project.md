@@ -1,5 +1,5 @@
 ---
-layout: mechanic
+layout: post
 title: Simple WordCloud Project
 date: 2012-05-22
 excerpt: "You're a wizard Harry!"

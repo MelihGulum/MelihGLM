@@ -1,14 +1,14 @@
 ---
-layout: mechanic
-title: Simple WordCloud Project
+layout: post
+title: Discord Bot
 date: 2012-05-22
-excerpt: "You're a wizard Harry!"
+excerpt: Time Saver!
 comments: true
 ---
     
 <center><b>Semih GULUM</b>    Mechatronic Engineer </center>
 
-Threshold and Specisific Object Detection
+Discord Bot
 
 ## List of libraries used
 * discord
