@@ -8,8 +8,6 @@ comments: true
     
 <center><b>Semih GULUM</b>    Mechatronic Engineer </center>
 
-Discord Bot
-
 ## List of libraries used
 * discord
 * datetime
@@ -22,7 +20,7 @@ When I was doing my internship at AdresGezgini, we used scrum methodology. Every
 I wrote some commands by specifying keywords. For example, when we type "/scrum", the links that we follow scrum come up. And if we type "/duty", we could see our tasks for that day.
 
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/120064727-75cd6100-c076-11eb-9af4-1aacf11544ea.jpeg
+	https://user-images.githubusercontent.com/56072259/120064859-0b68f080-c077-11eb-97a7-ba117cf75642.jpeg
 {% endcapture %}
 {% include gallery images=images caption="Figure 1 - Example Screenshot "%}
 <b>
