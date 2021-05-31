@@ -90,8 +90,9 @@ Finally, I sewed a sleeve from my old t-shirt to get rid of the ugly look of the
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/120193913-a4d60500-c225-11eb-9ffb-579a865695b5.png
 {% endcapture %}
-{% include gallery images=images cols=2 caption="Figure 7 "%}
+{% include gallery images=images cols=1 caption="Figure 7 "%}
 <b>
 
+If you wanna talk to me about the project or the code, [you can reach me here].(https://www.linkedin.com/in/semih-gulum/).
 
 ## Thanks for reading my project!
