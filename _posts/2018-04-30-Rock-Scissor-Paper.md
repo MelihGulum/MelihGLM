@@ -93,6 +93,6 @@ Finally, I sewed a sleeve from my old t-shirt to get rid of the ugly look of the
 {% include gallery images=images cols=1 caption="Figure 7 "%}
 <b>
 
-If you wanna talk to me about the project or the code, [you can reach me here].(https://www.linkedin.com/in/semih-gulum/).
+If you wanna talk to me about the project or the code, [you can reach me here](https://www.linkedin.com/in/semih-gulum/).
 
 ## Thanks for reading my project!
