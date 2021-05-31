@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Robot Hand: Rock Scissors Paper!
+title: Robot Hand, Rock Scissors Paper!
 date: 2012-05-31
 excerpt: "Magical Glove!"
 comments: true
@@ -22,7 +22,7 @@ comments: true
 * Conductor wire
 * Board
 
-## Materials needed to make our own sensor (Because its too expensive):
+## Materials needed to make our own sensor (cause its too expensive):
 * Soldering iron machine
 * Scissors
 * Ruler
