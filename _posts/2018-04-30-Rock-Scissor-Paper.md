@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Discord Bot
-date: 2012-05-30
-excerpt: "Time Saver!"
+title: Robot Hand: Rock Scissors Paper!
+date: 2012-05-31
+excerpt: "Magical Glove!"
 comments: true
 ---
     
