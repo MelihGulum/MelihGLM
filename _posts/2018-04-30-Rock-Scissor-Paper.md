@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robot Hand: Rock Scissors Paper!"
+title: Robot Hand: Rock Scissors Paper!
 date: 2012-05-31
 excerpt: "Magical Glove!"
 comments: true
