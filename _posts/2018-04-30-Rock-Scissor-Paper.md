@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Robot Hand: Rock Scissors Paper!
+title: "Robot Hand: Rock Scissors Paper!"
 date: 2012-05-31
 excerpt: "Magical Glove!"
 comments: true
@@ -45,7 +45,7 @@ https://user-images.githubusercontent.com/56072259/120176901-7bf74500-c210-11eb-
 As a microcontroller project, I developed a robot arm that can play rock paper scissors. This arm can perform the necessary hand functions with the help of servo motors and ropes. It can also be controlled with a glove. I glued it with a sponge to add a more human-like feel to the robot hand.
 
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/120176890-7994eb00-c210-11eb-8476-8403fb5c3bb1.jpeg
+	https://user-images.githubusercontent.com/56072259/120194839-cd123380-c226-11eb-8b9f-addc2b733340.jpeg
 {% endcapture %}
 {% include gallery images=images caption="Figure 2 - Robot Hand "%}
 <b>
@@ -53,7 +53,7 @@ As a microcontroller project, I developed a robot arm that can play rock paper s
 I can move the fingers with the help of the black parachute rope and the servo motor. When the servo motor rotates 90 degrees and 180 degrees, the rope turns with it and the fingers are closed.
 
 {% capture images %}
-	https://user-images.githubusercontent.com/56072259/120176890-7994eb00-c210-11eb-8476-8403fb5c3bb1.jpeg
+	https://user-images.githubusercontent.com/56072259/120194842-cdaaca00-c226-11eb-8e35-4c5b3a85ef2c.jpeg
 {% endcapture %}
 {% include gallery images=images caption="Figure 3 - Servo Motors "%}
 <b>
@@ -90,7 +90,7 @@ Finally, I sewed a sleeve from my old t-shirt to get rid of the ugly look of the
 {% capture images %}
 	https://user-images.githubusercontent.com/56072259/120193913-a4d60500-c225-11eb-9ffb-579a865695b5.png
 {% endcapture %}
-{% include gallery images=images cols=2 caption="Figure 6 "%}
+{% include gallery images=images cols=2 caption="Figure 7 "%}
 <b>
 
 
