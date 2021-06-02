@@ -29,8 +29,9 @@ The first step is to download the video from youtube. Then handle the video fram
 I leave an example from the youtube channel "StatQuest with Josh Starmer" so that you can see the output.
 
 [The Video](https://www.youtube.com/watch?v=fHLhBnmwUM0)
+
 And the Output:
-<iframe src="http://docs.google.com/gview?url=https://github.com/semihstp/semihstp.github.io/files/6582144/StatQuest_.Boxplots.Clearly.Explained.5.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+<iframe src="http://docs.google.com/gview?url=https://github.com/semihstp/semihstp.github.io/files/6582144/StatQuest_.Boxplots.Clearly.Explained.5.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
 
 If you wanna jump the awesome intro you can simply delete firstly frames before converting the pdf. 
 You can find the codes in my [github repo](https://github.com/semihstp).
