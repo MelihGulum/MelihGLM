@@ -31,7 +31,7 @@ I leave an example from the youtube channel "StatQuest with Josh Starmer" so tha
 [The Video](https://www.youtube.com/watch?v=fHLhBnmwUM0)
 
 
-* <p><a href="http://docs.google.com/gview?url=https://github.com/semihstp/semihstp.github.io/files/6582144/StatQuest_.Boxplots.Clearly.Explained.5.pdf" target="_blank">And the Output</a></p>
+<p><a href="http://docs.google.com/gview?url=https://github.com/semihstp/semihstp.github.io/files/6582144/StatQuest_.Boxplots.Clearly.Explained.5.pdf" target="_blank">And the Output</a></p>
 
 If you wanna jump the awesome intro you can simply delete firstly frames before converting the pdf. 
 You can find the codes in my [github repo](https://github.com/semihstp).
