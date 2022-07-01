@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://melihstp.github.io/about"><b>Melih GULUM</b></a> Computer Engineer </center>
+<center><a href="(https://melihgulum.github.io/melihstp.github.io/about"><b>Melih GULUM</b></a> Computer Engineer </center>
 
 ## Certifications
 * <p><a href="https://drive.google.com/file/d/1lCo7B9WrfNgFN5CEKLXLU64cArpouNNt/view?usp=sharing" target="_blank">Introduction to Natural Language Processing in Python (From Datacamp)</a></p>
