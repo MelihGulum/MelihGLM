@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://semihstp.github.io/"><b>Semih GULUM</b></a> Mechatronic Engineer </center>
+<center><a href="http://melihstp.github.io/"><b>Melih GULUM</b></a> Computer Engineer </center>
 
 <hr>
 <br>
