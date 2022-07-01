@@ -4,7 +4,7 @@ bio:                'Computer Engineer'
 description:        "Someone who aims to improve himself in deep learning and machine learning algorithms."
 reading_time:       true
 words_per_minute:   200
-logo:               'https://media-exp2.licdn.com/dms/image/C4D22AQGjlSPdav-iRA/feedshare-shrink_1280/0/1654941344991?e=1659571200&v=beta&t=bwq2R5BjB4fb14If40KdpWqG_Wrj8qxzIivok679BZA'
+logo:               'assets/img/a.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
