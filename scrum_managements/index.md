@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><b>Semih GULUM</b>    Mechatronic Engineer </center>
+<center><b>Melih GULUM</b>    Computer Engineer </center>
 
 ## Tasks Taken
 * Developer Team Member
@@ -34,4 +34,4 @@ We were using scrum methodology when I was doing my internship at [AdresGezgini]
 
 If you have any questions about scrum you can contact me.
       
-[Contact With Me](https://semihstp.github.io/about/){: .btn}
+[Contact With Me](https://melihstp.github.io/about/){: .btn}
