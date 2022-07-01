@@ -1,6 +1,6 @@
 # Site
-title:              Semih GULUM
-bio:                'Mechatronic Engineer'
+title:              Melih GULUM
+bio:                'Computer Engineer'
 description:        "Someone who aims to improve himself in deep learning and machine learning algorithms."
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +8,7 @@ logo:               'assets/img/a.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://semihstp.github.io/
+url:                https://melihst.github.io/
 
 # Jekyll
 permalink:          /:title/
@@ -26,11 +26,11 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   semihgulum
+disqus_shortname:   melihgulum
 
 # Social
 # if you don't have any of social below, comment the line.
-gmail:              sgulum98@gmail.com
+gmail:              mgulum98@gmail.com
 #google:
   #plus:            #username
   #analytics:
